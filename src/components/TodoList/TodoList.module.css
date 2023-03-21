@@ -1,0 +1,10 @@
+.title {
+  font-size: 1.1rem;
+  padding: 0.8rem 0;
+}
+
+.container {
+  height: 50%;
+  overflow-y: auto;
+  padding: 0.5rem;
+}

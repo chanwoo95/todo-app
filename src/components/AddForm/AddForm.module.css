@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  flex: 1 auto;
+}
+
+.input {
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid #f1f3f5;
+  padding: 0.6rem;
+  font-size: 1.2rem;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.button {
+  color: #1c7ed6;
+  background-color: #d0ebff;
+  font-weight: bold;
+  width: 70px;
+  height: 50px;
+  opacity: 0.8;
+  transition: all 0.2s;
+}
+
+.button:hover {
+  opacity: 1;
+}

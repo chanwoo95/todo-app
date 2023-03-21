@@ -1,0 +1,54 @@
+.todo_item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.text,
+.edit_text {
+  margin-left: 0.3rem;
+  font-size: 1.2rem;
+}
+
+.edit_text {
+  border: none;
+  border-bottom: 1px solid #f1f3f5;
+  width: 100%;
+  padding: 0;
+}
+
+.edit_text:focus {
+  outline: none;
+}
+
+.input_box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.button_box {
+  display: flex;
+}
+
+.done_button,
+.edit_button,
+.delete_button {
+  padding: 0.3rem;
+  font-size: 1.1rem;
+  transition: all 0.2s;
+}
+
+.edit_button:hover,
+.done_button:hover,
+.delete_button:hover {
+  transform: scale(1.1);
+}
+
+.delete_button:hover {
+  color: #f95959;
+}
+.done_button,
+.edit_button {
+  margin-right: 0.3rem;
+}
